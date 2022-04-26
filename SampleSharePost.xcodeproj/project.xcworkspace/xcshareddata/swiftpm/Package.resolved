@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "amity-social-cloud-uikit-ios-swiftpm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AmityCo/Amity-Social-Cloud-UIKit-iOS-SwiftPM",
+      "state" : {
+        "revision" : "14d05f25a8f4f839adedf7944337f4e0290f1e3a",
+        "version" : "2.15.0"
+      }
+    }
+  ],
+  "version" : 2
+}
