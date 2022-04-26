@@ -60,7 +60,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 class CustomFeedEventHandler: AmityFeedEventHandler {
 
     override func sharePostToMyTimelineDidTap(from source: AmityViewController, postId: String) {
-        callApiToCreatCustompost(accessToken: callApiToGetAccessToken(), postID: "89c9e1b49330303a3735a9afa90150af", caption: "I share a text post", currentUserID: "johnwick2")
+        callApiToCreatCustompost(accessToken: callApiToGetAccessToken(), postID: postId, caption: "I share a text post", currentUserID: "johnwick2")
     }
     
     func callApiToGetAccessToken()->String{
